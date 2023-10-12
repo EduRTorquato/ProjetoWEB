@@ -1,0 +1,75 @@
+body {
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    padding: 10px;
+}
+
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width: 50px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    margin:10px ;
+}
+
+.navBar {
+    border: 1px solid black;
+    margin-bottom: 120px;
+}
+
+.loginSpace {
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 350px;
+    width: 600px;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonLogin {
+    margin-top: 20px;
+    width: 100px;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+.buttonLogin:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+
+.linkRegister {
+    margin: 20px;
+}
+.logo {
+    margin: 10px;
+}
+
+.footer {
+    height: 150px;
+    margin-top: 235px;
+    border: 1px solid black;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+}
