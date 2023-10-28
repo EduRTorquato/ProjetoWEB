@@ -1,0 +1,37 @@
+body {
+    background-color: #fffbf3;
+}
+
+.imgsCarroussel{
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+
+.imgBanner {
+    border-radius: 10px;
+    margin: auto;
+    height: 500px;
+    width: 1000px;
+}
+
+.imovelBusca{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 750px;
+    background-color: #FFF;
+}
+/* .carrousselPosition{
+    margin-top: 100px;
+    margin: 1px solid black;
+    margin-bottom: ;
+} */

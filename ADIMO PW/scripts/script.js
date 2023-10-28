@@ -11,5 +11,9 @@ btn.addEventListener("click", function (e) {
         const valuePass = password.value
 
         console.log(valueUser, valuePass)
+})
+
+function login(){
+        console.log('HELLO WORLD');
+        window.location='home.html'
 }
-)
